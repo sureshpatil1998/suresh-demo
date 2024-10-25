@@ -52,7 +52,7 @@ boxes.forEach((box) => {
 });
 
 const gameDraw = () => {
-  msg.innerText = `Game was a Draw.`;
+  msg.innerText = `Game was a Draw Please play one more time.`;
   msgContainer.classList.remove("hide");
   disableBoxes();
 };
